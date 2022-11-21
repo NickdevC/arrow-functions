@@ -11,7 +11,7 @@
 // let sum = addTwoNumbers(3, 5);
 // console.log(sum);
 // Arrow Function With Parameters
-function addTwoNumbers(a, b) {
+const addTwoNumbers = (a, b) => {
     // Code block
     return a + b;
 }
@@ -19,6 +19,7 @@ let sum = addTwoNumbers(3, 5);
 console.log(sum);
 
 // Single Line Arrow Function With Parameters
+
 
 // Implicit Returns
 
