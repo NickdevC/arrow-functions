@@ -25,5 +25,17 @@ let sum2 = addTwoNumbers2(6, 4);
 console.log(sum2);
 
 // Implicit Returns
+const saySomething = message => console.log(message);
+saySomething('Hello there!');
+
+const sayHello = () => console.log('Hello');
+sayHello();
 
 // Returning Multiple Lines
+
+const returnMultipleLines = () => (
+    `<p>
+    This is a multiline string!
+    </p>`
+)
+console.log(returnMultipleLines())
